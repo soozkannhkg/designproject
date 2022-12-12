@@ -26,7 +26,7 @@ class AnaMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.setTitle("GUVENLINSAAT")
-        //selamýn alikim22222233333
+        //selamýn alikim2222223333344444
         setContentView(R.layout.activity_ana_menu)
         val yenidokumanlink = findViewById(R.id.textView6) as TextView
         yenidokumanlink.setOnClickListener{
