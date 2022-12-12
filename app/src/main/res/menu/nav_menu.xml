@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="Dosya" >
+
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_yenidokuman"
+                android:title="Yeni Doküman Oluştur"
+                android:icon="@drawable/ic_baseline_open_in_new_24"
+                />
+            <item
+                android:id="@+id/nav_ac"
+                android:title="Mevcut Dokümanı Aç"
+                android:icon="@drawable/file"
+                />
+            <item
+                android:id="@+id/nav_farklikaydet"
+                android:title="Farklı Kaydet..."
+                android:icon="@drawable/saveas"
+                />
+            <item
+                android:id="@+id/nav_sablonolustur"
+                android:title="Şablon Oluştur"
+                android:icon="@drawable/create"
+                />
+            <item
+                android:id="@+id/nav_dokumanisil"
+                android:title="Dokümanı Sil"
+                android:icon="@drawable/delete"
+                />
+
+            <item
+                android:id="@+id/nav_cikis"
+                android:title="Çıkış"
+                android:icon="@drawable/logout"
+                />
+        </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Yazdır" >
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_word"
+                android:title="Word"
+                android:icon="@drawable/word"
+                />
+            <item
+                android:id="@+id/nav_pdf"
+                android:title="Pdf"
+                android:icon="@drawable/pdf222"
+                />
+            <item
+                android:id="@+id/nav_xml"
+                android:title="XML"
+                android:icon="@drawable/xml"
+                />
+
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_gorunum"
+        android:title="Görünüm"
+        android:icon="@drawable/appearance"
+        />
+    <item
+        android:id="@+id/nav_araclar"
+        android:title="Araçlar"
+        android:icon="@drawable/settings"
+        />
+    <item
+        android:id="@+id/nav_yardim"
+        android:title="Yardım"
+        android:icon="@drawable/help"
+        />
+    <item
+        android:id="@+id/nav_iletisim"
+        android:title="İletişim"
+        android:icon="@drawable/communication"
+        />
+    <item
+        android:id="@+id/nav_hakkinda"
+        android:title="Hakkında"
+        android:icon="@drawable/info"
+        />
+    </group>
+</menu>
